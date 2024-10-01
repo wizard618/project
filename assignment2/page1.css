@@ -1,0 +1,36 @@
+a {
+    font-family: Arial, sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 10px;
+	display: inline-block;
+	margin-bottom: 10px;
+	width: 200px;
+	text-align: center;
+}
+
+a:link {
+	color: white;
+	background-color: blue;
+}
+
+    
+a:visited {
+	color: white;
+	background-color: purple;
+}
+        
+a:hover {
+	color: black;
+	background-color: yellow;
+	font-weight: bold;
+}
+
+a:active {
+	color: red;
+	background-color: green;
+}
+
+body {
+	padding: 20px;
+}

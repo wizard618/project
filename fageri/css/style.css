@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: sans-serif;
+    color: #7b72ab;
+}
+
+h4{
+    font-family: sans-serif;
+    color: #9493a3;
+}
+
+button{
+    border: none;
+    padding: 14px;
+    background-color: #8582b3;
+    color: white;
+    font-size: 19px;
+    width: 30%;
+}
+
+button:hover{
+    border: none;
+    padding: 14px;
+    background-color:#d0e2e2;
+    font-size: 14px;
+    width: 30%;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+header nav{
+    height: 90px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+nav .sections{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
+
+nav .sections ul li a{
+    text-decoration: none;
+    color: #313d44;
+    font-family: system-ui;
+    font-weight: 400;
+}
+
+
+nav .sections ul li a:hover{
+    color: #b2b0c8;
+    text-decoration: underline;
+}
+
+header .banner{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 50px;
+    height: 100%;
+}
+
+header .banner .content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+header .banner .img{
+    width: 85%;
+    height: 100%;
+}
+
+header .banner .img img{
+    width: 100%;
+    height: 98%;
+    border-radius: 5px;
+}
+
+
+.Albums{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.Albums .Album{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 40px;
+    margin-top: 100px;
+}
+
+.Albums .Album img{
+    width: 100%;
+}
+
+
+
+
+.Albums .Album button{
+    border: none;
+    padding: 14px;
+    background-color: #8582b3;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+}
+
+.Albums .Album .content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+.Register{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+
+.Register form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+input{
+    border: 2px solid #8582b3;
+    padding: 14px;
+    color: #8582b3;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+
+
+.footer{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.footer .cols{
+    padding: 60px;
+    display: flex;
+    gap: 200px;
+}
+
+.footer .cols .col{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.col span{
+    display: block;
+    height: 3px;
+    width: 60px;
+    background-color: #8582b3;
+}
+
+.footer p{
+    color: #a9a9a9;
+}
+
+
+
+.col button{
+    background: #8582b3;
+    border: none;
+    color: white;
+    width: 50%;
+    padding: 13px;
+    font-weight: 800;
+}
+
+b{
+    color: #7b72ab;
+}
+
+
+ .social {
+	    width: 50px;
+        border-radius: 26px;
+		border: 4px solid gold;
+ }
+ 
